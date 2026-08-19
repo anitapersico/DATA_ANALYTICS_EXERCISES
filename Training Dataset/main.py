@@ -12,13 +12,13 @@ df.index = range(1, len(df) + 1)
 print(df)
 
 # Explore the dataset
-df.head(10)      # first 10 rows
-df.columns        # column names
-df.shape          # number of rows and columns
-df.dtypes         # data type of each column
+print(df.head(10))      # first 10 rows
+print(df.columns)       # column names
+print(df.shape)          # number of rows and columns
+print(df.dtypes)         # data type of each column
 
 # Check for missing values
-df.isnull().sum()
+print(df.isnull().sum())
 
 # Handle missing values
 df['Date'] = df['Date'].fillna('2020-01-01')          # fill missing dates with a default value
@@ -26,10 +26,10 @@ df['Calories'] = df['Calories'].fillna(df['Calories'].mean())  # fill missing ca
 print(df)
 
 # Select specific columns
-df[['Pulse', 'Calories']]
+print(df[['Pulse', 'Calories']])
 
 # Select data using loc
-df.loc[1:14, ['Date', 'Maxpulse']]
+print(df.loc[1:14, ['Date', 'Maxpulse']])
 
 # Select data using iloc
-df.iloc[9:14, [1, 2, 4]]
+print(df.iloc[9:14, [1, 2, 4]])
