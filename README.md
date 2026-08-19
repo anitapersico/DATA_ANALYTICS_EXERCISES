@@ -1,4 +1,4 @@
-## Lesson 2 – Pandas Fundamentals
+## Lesson 1 – Pandas Fundamentals
 
 Exercise focused on the basics of data exploration and manipulation with **pandas**, using a training dataset (`training_data.csv`) containing workout session data (Duration, Date, Pulse, Maxpulse, Calories).
 
