@@ -1,0 +1,11 @@
+StudentID,Name,Degree,Year,EnrollmentDate
+S001,Alice Rossi,Biologia,3,2021-07-02
+S002,Luca Bianchi,Ingegneria,3,2020-09-12
+S003,Giulia Verdi,Lettere,3,2021-07-20
+S004,Marco Neri,Economia,1,2020-12-30
+S005,Sara Conti,Biologia,2,2021-06-18
+S006,Paolo De Luca,Economia,2,2020-11-10
+S007,Marta Galli,Economia,2,2021-01-31
+S008,Davide Colombo,Informatica,3,2020-10-18
+S009,Chiara Ferri,Economia,3,2021-03-26
+S010,Giorgio Serra,Ingegneria,1,2021-03-19
