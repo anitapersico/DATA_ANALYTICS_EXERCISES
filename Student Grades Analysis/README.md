@@ -1,4 +1,4 @@
-# Lesson 4 – Data Manipulation with Pandas
+##Data Manipulation with Pandas
 
 Exercise focused on manipulating and combining data with **pandas**, using two related datasets about university students and their exam grades.
 
